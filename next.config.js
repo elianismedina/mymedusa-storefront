@@ -12,10 +12,19 @@ module.exports = withStoreConfig({
   features: store.features,
   reactStrictMode: true,
   images: {
+    remotePatterns:[
+      {
+        protocol: "http",
+        hostname: "172.19.120.248",
+        port: "9001"
+      },
+
+    ],
     domains: [
       "medusa-public-images.s3.eu-west-1.amazonaws.com",
       "localhost",
       "medusa-server-testing.s3.amazonaws.com",
+      "172.19.120.248:9001",
     ],
   },
 })
