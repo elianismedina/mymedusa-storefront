@@ -10,7 +10,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Providers>
-          <main className="relative">{children}</main>
+          <main className="relative">
+            {children}
+          </main>
         </Providers>
       </body>
     </html>
