@@ -14,7 +14,7 @@ const FooterNav = () => {
       <div className="flex flex-col gap-y-6 xsmall:flex-row items-start justify-between">
         <div>
           <Link href="/" className="text-xl-semi uppercase">
-            Acme
+            A&E Cueros
           </Link>
         </div>
         <div className="text-small-regular grid grid-cols-3 gap-x-10 md:gap-x-16">
@@ -62,7 +62,7 @@ const FooterNav = () => {
           )}
           {collections && (
             <div className="flex flex-col gap-y-2">
-              <span className="text-base-semi">Collections</span>
+              <span className="text-base-semi">Colecciones</span>
               <ul
                 className={clsx("grid grid-cols-1 gap-2", {
                   "grid-cols-2": (collections?.length || 0) > 3,
@@ -77,7 +77,7 @@ const FooterNav = () => {
             </div>
           )}
           <div className="flex flex-col gap-y-2">
-            <span className="text-base-semi">Medusa</span>
+            <span className="text-base-semi">A&E cueros</span>
             <ul className="grid grid-cols-1 gap-y-2">
               <li>
                 <a
@@ -112,7 +112,7 @@ const FooterNav = () => {
       </div>
       <div className="flex flex-col-reverse gap-y-4 justify-center xsmall:items-center xsmall:flex-row xsmall:items-end xsmall:justify-between">
         <span className="text-xsmall-regular text-gray-500">
-          © Copyright 2022 ACME
+          © Copyright 2023 A&E cueros
         </span>
         <div className="min-w-[316px] flex xsmall:justify-end">
           <CountrySelect />
