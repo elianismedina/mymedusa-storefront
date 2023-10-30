@@ -9,12 +9,12 @@ const Help = () => {
         <ul className="gap-y-2 flex flex-col">
           <li>
             <Link href="/contact">
-              Contact
+              Contactanos
             </Link>
           </li>
           <li>
             <Link href="/contact">
-              Returns & Exchanges
+              Devoluciiones & cambios
             </Link>
           </li>
         </ul>
